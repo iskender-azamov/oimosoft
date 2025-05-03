@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "pinia": "^3.0.2",
     "primeflex": "^4.0.0",
     "primeicons": "^7.0.0",
