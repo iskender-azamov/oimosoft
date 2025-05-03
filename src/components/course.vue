@@ -44,7 +44,6 @@
 </template>
 <script setup lang="ts">
 import {ref} from "vue";
-import NavigationBtn from "../components/navigation-btn.vue";
 import {Swiper, SwiperSlide} from "swiper/vue";
 import {Navigation} from "swiper/modules";
 
