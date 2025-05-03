@@ -59,7 +59,6 @@
 </template>
 <script setup lang="ts">
 import Course from "../components/course.vue";
-import Search from "../components/search.vue";
 import CourseInfo from "../components/course-info.vue";
 import { ref } from "vue";
 // Import Swiper Vue.js components
