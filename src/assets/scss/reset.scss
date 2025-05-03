@@ -1,0 +1,52 @@
+body {
+  background-color: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gilroy";
+  transition: 0.6s;
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+.cursor {
+  border: 1px solid rgb(142, 142, 142);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1000;
+  transition: 0.1s;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+.cursor2 {
+  background-color: #F58F00;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1000;
+  transition: 0.2s;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1100px) {
+  .cursor {
+    display: none;
+  }
+  .cursor2 {
+    display: none;
+  }
+}
